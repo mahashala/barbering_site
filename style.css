@@ -1,0 +1,61 @@
+/* External CSS for styling the login form with neon effect and background image */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.login-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(58, 56, 54, 0.5); /* Adds a semi-transparent black background for neon effect */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a neon glow effect */
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #00ccff; /* Neon blue color for the heading */
+}
+
+.form-group {
+    margin: 10px 0;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3); /* Adds a semi-transparent background to input fields */
+    border: 1px solid #00ccff; /* Neon blue border */
+    border-radius: 5px;
+    color: #fff;
+}
+
+.remember-me {
+    display: inline-block;
+    margin-top: 10px;
+}
+.remember-me label {
+    color: #00ccff; /* Neon blue color for the label */
+}
+
+.remember-me input[type="checkbox"] {
+    border: 2px solid #00ccff; /* Neon blue border for the checkbox */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #00ccff; /* Neon blue background for the button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
